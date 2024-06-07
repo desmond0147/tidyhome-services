@@ -12,4 +12,18 @@
 body {
     font-family:'Roboto' sans-serif;
     font-weight: 300;
+    color: #6c757d;
+}
+
+/* heading and logo */
+h1, h2 {
+    font-family: 'Merriweather', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
