@@ -5,10 +5,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box; /* Added to ensure consistent box-sizing */
 }
 
-/* General body style */
+/* general body style */
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -16,7 +15,7 @@ body {
     background-color: #f5f5f5; /* Added background color for better contrast */
 }
 
-/* Heading and logo */
+/* heading and logo */
 h1, h2 {
     font-family: 'Merriweather', sans-serif;
     text-transform: uppercase;
@@ -30,7 +29,7 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* Navigation links */
+/* navigation links */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -59,9 +58,9 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Worker's image */
+/* workers image */
 #worker-outer {
-    height: 600px; /* Adjusted back to 600px */
+    height: 600px; /* Adjusted back to 600px*/
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -73,7 +72,7 @@ h1, h2 {
     background: url('../images/worker.jpg') no-repeat center center;
     background-size: cover;
 
-    /* Animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
     animation: worker-zoom 5s forwards;
 }
 
@@ -107,27 +106,29 @@ h1, h2 {
     position: absolute;
     bottom: 30px;
     right: 50px;
+    color: #fff;
 }
 
-/* Work ethos */
-#work-ethos {
-    height: 600px;
-    padding: 30px 0; /* Added padding for spacing */
-    display: flex; /* Use flexbox for better layout management */
-    justify-content: space-between;
-    text-align: center; /* Center text for better alignment */
+/* work ethos */
+work-ethos{
+height: 600px;
 }
 
-#left-about, #right-about, #center-about {
-    width: 30%;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Added subtle shadow for better separation */
-    background-color: #fff; /* Background color for better contrast */
-    border-radius: 8px; /* Added border radius for smoother edges */
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
 }
 
-#center-about {
-    margin: auto;
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about{
+    width: 33%;
+    margin:  auto;
     background-color: green;
 }
 
@@ -136,20 +137,26 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
-
-.left-about-heading, .right-about-heading {
+.left-about-heading {
+    width: 60%;
+    float: right;
     line-height: 20px;
+    clear: both;
     margin-bottom: 50px;
 }
 
-.left-about-heading {
-    text-align: left; /* Ensure left alignment for left section */
-}
-
 .right-about-heading {
-    text-align: right; /* Ensure right alignment for right section */
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-.right-about-heading h2, .right-about-heading p {
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
     text-align: right;
 }
