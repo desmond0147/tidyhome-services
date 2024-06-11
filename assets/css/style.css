@@ -166,4 +166,16 @@ hr {
     font-size: 150%;
 }
 
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url('../images/center.jpg') no-repeat center center;
+    background-size: cover;
+}
 
