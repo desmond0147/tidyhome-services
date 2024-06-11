@@ -202,15 +202,41 @@ hr {
     margin: 10px 0;
 }
 
-/* Footer styles */
+/* Footer styling */
 footer {
-    background-color: #2a2a2a;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding for top and bottom */
+    width: 100%; /* Full width */
+}
+
+footer ul#social-medias {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0 0 10px 0; /* Remove default margin and add bottom margin */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the list items */
+    gap: 15px; /* Space between icons */
+}
+
+footer ul#social-medias li {
+    display: inline; /* Inline list items */
+}
+
+footer ul#social-medias li a {
+    color: #fff; /* White icon color */
+    font-size: 1.5em; /* Larger icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+footer ul#social-medias li a:hover {
+    color: #ffcc00; /* Change color on hover */
 }
 
 footer p {
-    margin: 0;
+    margin: 0; /* Remove default margin */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #bbb; /* Light gray color */
 }
