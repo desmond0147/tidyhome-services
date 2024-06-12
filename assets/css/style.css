@@ -384,7 +384,7 @@ header {
     margin: 5px 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {   /* style work ethos max with 1200px */
     #work-ethos {
         width: 65;
         height: 1200px;
@@ -411,5 +411,16 @@ header {
 
     hr {
         display: none;
+    }
+}
+
+/* For media screen size from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
