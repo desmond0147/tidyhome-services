@@ -240,3 +240,146 @@ footer p {
     font-size: 0.9em; /* Slightly smaller font size */
     color: #bbb; /* Light gray color */
 }
+
+/* Contact form box styling */
+#contact-form {
+    width: 80%;  /* Adjusted width to make the form smaller */
+    max-width: 600px;  /* Added a max-width to prevent it from being too wide */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: calc(100% - 20px);  /* Adjusted width to fit better inside the form */
+    padding: 10px;
+    margin-bottom: 15px;  /* Reduced margin to make the form more compact */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #3a3a3a;
+}
+
+/* Adjustments for header and navigation */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#logo {
+    float: left;
+    font-size: 150%;  /* Reduced font size for logo */
+    margin-left: 30px;
+    line-height: 75px;  /* Ensures vertical alignment with menu */
+}
+
+#menu {
+    float: right;
+    font-size: 100%;  /* Reduced font size for menu */
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;  /* Reduced margin for better spacing */
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* service styling */
+
+.service-section {
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-content {
+    max-width: 800px; /* Adjust max width as needed */
+    width: 100%;
+}
+
+.service-item {
+    width: 100%; /* Adjust width as needed */
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.service-item h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+}
+
+.service-item p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.service-frequencies {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.service-frequencies li {
+    margin: 5px 0;
+}
