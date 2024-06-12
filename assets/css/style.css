@@ -222,6 +222,7 @@ footer ul#social-medias {
 
 footer ul#social-medias li {
     display: inline; /* Inline list items */
+    margin: 0 20px; /* to add more space */
 }
 
 footer ul#social-medias li a {
