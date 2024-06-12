@@ -384,7 +384,7 @@ header {
     margin: 5px 0;
 }
 
-@media screen and (max-width: 1850px) {   /* style work ethos max with 1200px */
+@media screen and (max-width: 1850px) {   /* style work ethos max with 1850px */
     #work-ethos {
         width: 90;
         height: 1850px;
@@ -438,5 +438,10 @@ header {
     .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+
     }
 }
