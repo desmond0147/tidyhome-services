@@ -384,10 +384,10 @@ header {
     margin: 5px 0;
 }
 
-@media screen and (max-width: 1850px) {   /* style work ethos max with 1850px */
+@media screen and (max-width: 1200px) {   /* style work ethos max with 1200px */
     #work-ethos {
         width: 90;
-        height: 1850px;
+        height: 1200px;
         margin: 0 auto;
     }
 
