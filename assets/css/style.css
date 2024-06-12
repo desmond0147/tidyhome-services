@@ -384,64 +384,32 @@ header {
     margin: 5px 0;
 }
 
-/* Responsive adjustments start here */
-/* For mobile devices (phones - portrait and landscape) */
-@media only screen and (max-width: 600px) {
-    #menu, #logo {
-        line-height: 50px;
+@media screen and (max-width: 1200px) {
+    #work-ethos {
+        width: 65;
+        height: 1200px;
+        margin: 0 auto;
     }
 
-    #menu li {
-        margin-right: 15px;
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
     }
 
-    .service-column {
+    #lift-about, #right-about {
         width: 100%;
+        float: left;
+        padding: 0;
     }
 
-    .service-item {
+    #center-about {
+        clear: both;
         width: 100%;
+        float: left;
+        padding: 0;
     }
 
-    #contact-form {
-        width: 95%;
-        max-width: 350px;
-    }
-
-    #contact-form input, #contact-form textarea {
-        font-size: 12px;
-    }
-
-    #contact-form button {
-        font-size: 14px;
-    }
-}
-
-/* For tablets (portrait and landscape) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    #menu, #logo {
-        line-height: 60px;
-    }
-
-    .service-column {
-        width: 50%;
-    }
-}
-
-/* For desktops and laptops */
-@media only screen and (min-width: 1025px) {
-    #menu, #logo {
-        line-height: 75px;
-    }
-
-    .service-column {
-        width: 48%;
-    }
-}
-
-/* Additional styles for very large screens */
-@media only screen and (min-width: 1441px) {
-    .service-column {
-        width: 46%;
+    hr {
+        display: none;
     }
 }
