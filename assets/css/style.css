@@ -336,22 +336,20 @@ header {
 }
 
 /* service styling */
-
 .service-section {
     padding: 20px;
     background: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Spread items evenly with space between */
 }
 
-.service-content {
-    max-width: 800px; /* Adjust max width as needed */
-    width: 100%;
+.service-column {
+    width: 48%; /* Adjust width to leave space for spacing */
 }
 
 .service-item {
-    width: 100%; /* Adjust width as needed */
+    width: calc(50% - 10px); /* Adjust width to fit two items per column with spacing */
     padding: 15px;
     background: #f9f9f9;
     border: 1px solid #ddd;
