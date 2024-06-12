@@ -338,6 +338,7 @@ header {
 
 /* service styling */
 .service-section {
+    clear: both; /* to allow the text display below the header */
     padding: 20px;
     background: #fff;
     display: flex;
