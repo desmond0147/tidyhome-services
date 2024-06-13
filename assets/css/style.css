@@ -465,13 +465,16 @@ header {
         width: calc(100% - 10px);
         margin-bottom: 20px;
     }
-
-    footer ul#social-medias {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    footer ul#social-medias li {
-        margin: 5px 0;
-    }
 }
+    /* footer to be responsive small screen */
+footer {
+height: 50px;
+}
+
+.social-medias {
+    text-align: center;
+
+}
+
+
+
