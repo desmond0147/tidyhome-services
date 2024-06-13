@@ -409,6 +409,13 @@ header {
         padding: 0;
     }
 
+    #services-items > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
     hr {
         display: none;
     }
