@@ -453,7 +453,7 @@ header {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {    /* for small screen size 768px and down */
     #contact-info {
         flex-direction: column;
         align-items: center;
