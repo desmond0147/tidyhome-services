@@ -144,6 +144,14 @@ hr {
     margin-bottom: 50px;
 }
 
+.left-about-heading h2 {
+    text-align: right;
+}
+
+.left-about-heading p {
+    text-align: right;
+}
+
 .right-about-heading {
     width: 60%;
     float: left;
