@@ -424,7 +424,7 @@ header {
 
     #work-ethos {
         width: 90%;
-        height: 1850px;
+        height: 1500px; /* adjust from 1850 to 1500 */
         margin: 0 auto;
     }
 
