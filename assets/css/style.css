@@ -181,6 +181,13 @@ hr {
     background-color: #f5f5f5;
 }
 
+#city-image {
+    height: 100%;
+    width: 100%;
+    background: url('../images/dublin-city.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .contact-box {
     width: 40%;
     text-align: center;
