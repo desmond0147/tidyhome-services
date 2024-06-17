@@ -7,6 +7,11 @@
     box-sizing: border-box; /* Add box-sizing reset */
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 /* General body styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -426,6 +431,11 @@ header {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 /* Service section styling */
 .service-section {
