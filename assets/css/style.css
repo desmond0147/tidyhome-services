@@ -202,6 +202,9 @@ hr {
     margin: 10px 0;
 }
 
+.contactInfo .box .icon:hover {
+    color: #007BFF; /* Add  hover style */
+}
 /* Footer styling */
 footer {
     background-color: #333; 
