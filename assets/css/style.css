@@ -263,7 +263,7 @@ footer p {
     margin: 0 auto;
     padding-bottom: 30px;
 }
-.contact h2 {
+.contact h2 p {
     font-family: 'Merriweather', serif;
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -272,7 +272,7 @@ footer p {
 
 .contact p {
     font-size: 1.2em;
-    color: #666;
+    color: #fff;
 }
 
 
