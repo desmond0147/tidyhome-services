@@ -7,11 +7,6 @@
     box-sizing: border-box; /* Add box-sizing reset */
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 /* General body styles */
 body {
     font-family: 'Roboto', sans-serif;
