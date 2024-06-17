@@ -1,2 +1,5 @@
-# tidyhome-services
- A website for home cleaning services, around Dublin city and environs.
+# TidyHome Services
+
+A website for home cleaning services, around Dublin city and environs.
+
+![Cleaning Service](images/worker.jpg)
