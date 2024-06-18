@@ -2,4 +2,4 @@
 
 A website for home cleaning services, around Dublin city and environs.
 
-![Cleaning Service](images/worker.jpg)
+![TidyHome Services](images/worker.jpg)
