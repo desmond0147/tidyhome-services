@@ -30,3 +30,20 @@ For more information or to schedule a service, please contact us:
 - **Email:** omonuwaosai@gmail.com
 - **Address:** Tidy Home, 3 Meeting House Lane, Dublin, Ireland
 
+## Usage
+
+Visit our website to learn more about our services, schedule a cleaning, or get in touch with our team.
+
+## Technologies Used
+
+- HTML
+- CSS
+
+Testing 
+I tested that this page works in different browsers: Chrome, Microsoft Edge, Firefox, safari.
+
+i comfirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.
+I confirmed that the navigation, header, about us, services, and contact text are all readable and easy to understand.
+
+I have confirmed that the form works: requires entries in every feild, will only accept an email in the email field, and the sumit button works.
+
