@@ -47,3 +47,36 @@ I confirmed that the navigation, header, about us, services, and contact text ar
 
 I have confirmed that the form works: requires entries in every feild, will only accept an email in the email field, and the sumit button works.
 
+bugs
+
+solved bugs
+i find out with the contact us form after submiting form the footer was floating. i search on google after first talk with my mentor to know whey my footer was floating i find out that i ndod to set it on absolute. 
+
+Validation Texting
+HTML 
+ No errors were return when passing through the offucial W3C validator.
+  CSS
+   No errors were found when passing through the oficial(jigsaw) validator 
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository: `git clone https://github.com/your-username/tidyhome-services.git`
+2. Navigate to the project directory: `cd tidyhome-services`
+3. Open `index.html` in your web browser to view the site.
+link https://desmond0147.github.io/tidyhome-services/contact.html
+
+Credits
+ Love Running walk through project, youtube learn Web.
+ Media 
+  The images was taken from Pexels
+
+
+## Contributing
+
+We welcome contributions to improve our services and website. Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
