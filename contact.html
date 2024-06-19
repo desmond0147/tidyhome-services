@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Header title-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Tidy Home Cleaners for your home cleaning needs in Dublin, Ireland">
+    <meta name="keywords" content="Tidy home services, contact, Dublin, Ireland, cleaning services">
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <title>Responsive Contact Us page</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Add basic header structure & body section -->
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Tidy Home Cleaners</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- refactor: update Contact form layout -->
+    <section class="contact" id="city-image">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Tidy home cleaners, the best ever in town.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-pin"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>3 Meeting house lane,<br>Dublin City,<br>Ireland.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-mobile-retro"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>353-899-720-953</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>omonuwaosai@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" id="fullName" name="fullName" required="required">
+                        <label for="fullName">Full Name</label>
+                    </div>
+                    <div class="inputBox">  <!--replace label for span-->
+                        <input type="email" id="email" name="email" required="required">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea id="message" name="message" required="required"></textarea>
+                        <label for="message">Type your Message...</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <ul id="social-medias">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Facebook page (open in new tab)">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Twitter page (open in new tab)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Instagram page (open in new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <p>&copy; 2024 Tidy Home Cleaners. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/d2455d5da4.js" crossorigin="anonymous"></script>
+</body>
+</html>
