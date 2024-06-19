@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 /* General body styles */
@@ -26,6 +27,10 @@ header {
     align-items: center;
 }
 
+header #logo {
+    border: none !important;
+}
+
 #logo {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.5em;
@@ -34,6 +39,7 @@ header {
     color: #2a2a2a;
     text-align: center;
     text-decoration: none;
+    border: none;
 }
 
 nav {
@@ -194,16 +200,19 @@ nav {
     }
 }
 
-/* Work ethos section */
+/* Work Ethos Section */
 #work-ethos {
     padding: 50px 0;
     background-color: #f5f5f5;
-    text-align: center;
+    text-align: center; /* Center aligning the content */
 }
 
 #left-about, #right-about {
     padding-top: 30px;
     box-sizing: border-box;
+    display: inline-block; /* Ensures blocks are inline */
+    vertical-align: top; /* Aligns blocks vertically */
+    width: 50%; /* Each section takes half the width */
 }
 
 .left-about-heading,
@@ -242,6 +251,7 @@ nav {
 /* Responsive adjustments for work ethos section */
 @media screen and (max-width: 768px) {
     #left-about, #right-about {
+        width: 100%; /* Full width on smaller screens */
         padding-top: 20px;
     }
 
@@ -263,7 +273,6 @@ nav {
         padding: 20px;
     }
 }
-
 /* Contact info section */
 #contact-info {
     display: flex;
@@ -384,5 +393,136 @@ nav {
     .left-about-heading p,
     .right-about-heading p {
         line-height: 1.5;
+    }
+}
+
+/* Footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#social-medias {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#social-medias li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-medias a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/* Responsive adjustments for footer */
+@media screen and (max-width: 768px) {
+    #social-medias {
+        margin-bottom: 10px;
+    }
+
+    #social-medias li {
+        margin: 0 5px;
+    }
+
+    #social-medias a {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #social-medias a {
+        font-size: 1em;
+    }
+}
+
+/* Services section */
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-column {
+    flex: 1;
+    padding: 0 10px; /* Adjusted padding for smaller screens */
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+}
+
+.service-item p {
+    line-height: 1.6;
+    color: #555; /* Adjusted text color for better visibility */
+    font-size: 0.95em;
+}
+
+.service-frequencies {
+    margin-top: 10px;
+}
+
+.service-frequencies li {
+    margin-bottom: 5px;
+    color: #777; /* Adjusted frequency text color */
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments for services section */
+@media screen and (max-width: 768px) {
+    .service-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-column {
+        padding: 0;
+    }
+
+    .service-item {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px; /* Adjusted padding for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service-item {
+        padding: 10px; /* Further adjusted padding for smaller screens */
+    }
+
+    .service-item h3 {
+        font-size: 1.3em;
+    }
+
+    .service-item p {
+        font-size: 0.9em;
+    }
+
+    .service-frequencies li {
+        font-size: 0.85em; /* Slightly reduced font size for frequencies on smaller screens */
     }
 }
