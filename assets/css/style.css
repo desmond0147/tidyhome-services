@@ -1,602 +1,117 @@
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
-/* Reset default styles (wildcard) */
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add box-sizing reset */
+    box-sizing: border-box;
 }
 
 /* General body styles */
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     color: #333;
-    background-color: #f5f5f5; /* Added a background color for better contrast */
+    background-color: #f5f5f5;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
-/* Headings and logo */
-h1, h2 {
-    font-family: 'Merriweather', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #2a2a2a;
-}
-
-#logo {
-    float: left;
-    font-size: 150%;
-    margin-left: 30px;
-    line-height: 75px;
-}
-
-/* Navigation links */
-#menu {
-    float: right;
-    font-size: 100%;
-    letter-spacing: 2px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* Workers image section */
-#worker-outer {
-    height: 600px; /* Adjusted back to 600px */
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-main {
-    margin: 0 auto;
-    max-width: 1400px;
-}
-
-#worker-image {
-    height: 100%;
-    width: 100%;
-    background: url('../images/worker.jpg') no-repeat center center;
-    background-size: cover;
-    animation: worker-zoom 5s forwards; /* Added animation zoom */
-}
-
-@keyframes worker-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 250px;
-    height: 200px;
-    padding: 10px;
-    background-color: #3a3a3a;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 30px;
-    right: 50px;
-}
-
-/* Work ethos section */
-#work-ethos {
-    height: 600px;
-}
-
-#left-about, #right-about, #center-about {
-    padding-top: 30px;
-    width: 33%;
-}
-
-#left-about {
-    float: left;
-}
-
-#right-about {
-    float: right;
-}
-
-#center-about {
-    margin: auto;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading, .right-about-heading {
-    width: 60%;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-.left-about-heading {
-    float: right;
-}
-
-.left-about-heading h2, .right-about-heading h2 {
-    text-align: left;
-}
-
-.right-about-heading {
-    float: left;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin: 20px;
-    font-size: 150%;
-}
-
-/* Center image container */
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0 auto;
-    background: url('../images/center.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-/* Contact info section */
-#contact-info {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 0;
-    background-color: #f5f5f5;
-}
-/* Add background image to contact us*/
-#city-image {
-    height: 100%;
-    width: 100%;
-    background: url('../images/dublin-city.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-.contact-box {
-    width: 40%;
-    text-align: center;
-}
-
-.contact-box h3 {
-    margin-bottom: 20px;
-    font-size: 120%;
-}
-
-.contact-box p {
-    margin: 10px 0;
-}
-
-.contactInfo .box .icon:hover {
-    color: #007BFF; /* Add  hover style */
-}
-/* Footer styling */
-footer {
-    background-color: #333; 
-    color: #fff;   
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    margin-top: auto; /* Ensure footer stays at the bottom */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer ul#social-medias {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-footer ul#social-medias li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul#social-medias li a {
-    color: #fff;
-    font-size: 1.5em;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-footer ul#social-medias li a:hover {
-    color: #ffcc00;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #bbb;
-}
-
-/* refactor: update Contact form styling */
-.contact {
-    padding: 50px 0;
-    background-color: #f5f5f5;
-    text-align: center;
-}
-
-#contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Merriweather', sans-serif;
-}
-.contact .content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-.contact h2 p {
-    font-family: 'Merriweather', serif;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #2a2a2a;
-}
-
-.contact p {
-    font-size: 1.2em;
-    color: #fff;
-}
-
-
-.contact .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-.contactInfo {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
-
-.contactInfo .box {
-    background: #fff;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-
-.contactInfo .box .icon {
-    font-size: 2em;
-    margin-right: 20px;
-    color: #2a2a2a;
-}
-
-.contactInfo .box .text h3 {
-    font-size: 1.2em;
-    color: #2a2a2a;
-    margin-bottom: 5px;
-}
-
-.contactInfo .box .text p {
-    font-size: 1em;
-    color: #666;
-}
-
-.contactForm {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
-
-.contactForm form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contactForm form h2 {
-    font-size: 1.8em;
-    color: #2a2a2a;
-    margin-bottom: 10px;
-}
-
-.contactForm .inputBox {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.contactForm .inputBox input,
-.contactForm .inputBox textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    background: transparent;
-}
-
-.contactForm .inputBox span {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #666;
-    pointer-events: none;
-    transition: 0.5s;
-}
-
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:valid ~ span {
-    top: -5px;
-    left: 10px;
-    color: #2a2a2a;
-    font-size: 0.9em;
-}
-
-.contactForm .inputBox input[type="submit"]:hover {
-    background: #3a3a3a;
-}
-
-/* Header and navigation adjustments */
+/* Header styles */
 header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #logo {
-    float: left;
-    font-size: 150%;
-    margin-left: 30px;
-    line-height: 75px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2a2a2a;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 #menu {
-    float: right;
-    font-size: 100%;
-    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin: 5px 0;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    font-size: 1em;
+    letter-spacing: 2px;
 }
 
-#menu a:hover {
+#menu a:hover,
+#menu a.active {
     border-bottom: 2px solid #3a3a3a;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
+/* Media Queries */
 
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Service section styling */
-.service-section {
-    clear: both;
-    padding: 20px;
-    background: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.service-column {
-    width: 48%;
-}
-
-.service-item {
-    width: calc(50% - 10px);
-    padding: 15px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
-    margin-bottom: 20px;
-    margin: 10px auto;
-}
-
-.service-item h3 {
-    font-family: 'Merriweather', serif;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #2a2a2a;
-}
-
-.service-item p {
-    font-size: 0.9em;
-    margin-bottom: 10px;
-}
-
-.service-frequencies {
-    list-style-type: none;
-    padding: 0;
-    font-size: 0.9em;
-    color: #555;
-}
-
-.service-frequencies li {
-    margin: 5px 0;
-}
-
-/* Responsive design */
-@media screen and (max-width: 1200px) {
-    #work-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+/* Adjust at 500px */
+@media (min-width: 500px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
+    nav {
+        margin-top: 0;
     }
 
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #services-items > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 950px) {
     #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        flex-direction: row;
     }
 
-    #cover-text {
-        left: 0;
-    }
-
-    #work-ethos {
-        width: 90%;
-        height: 1500px; /* adjust from 1850px to 1500px */
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
+    #menu li {
+        margin: 0 10px;
     }
 }
 
-@media (max-width: 768px) {
-    #contact-info {
-        flex-direction: column;
-        align-items: center;
+/* Adjust at 700px */
+@media (min-width: 700px) {
+    header {
+        padding: 20px 40px;
     }
 
-    .contact-box {
-        width: 80%;
+    #logo {
+        font-size: 2em;
     }
 
-    #contact-form {
-        width: 90%;
-        padding: 10px;
-    }
-
-    .service-column {
-        width: 100%;
-    }
-
-    .service-item {
-        width: calc(100% - 10px);
-        margin-bottom: 20px;
-    }
-}
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-    .contact .container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .contactInfo, .contactForm {
-        min-width: 90%;
+    #menu a {
+        font-size: 1.2em;
     }
 }
 
-/* Footer adjustments for smaller screens */
-@media (max-width: 600px) {
-    footer ul#social-medias li {
-        margin: 0 5px; /* Further adjust margin for smaller screens */
+/* Adjust at 900px */
+@media (min-width: 900px) {
+    header {
+        padding: 20px 60px;
     }
 
-    footer p {
-        font-size: 0.8em; /* Adjust font size for smaller screens */
+    #logo {
+        font-size: 2.5em;
     }
-}
 
-.social-medias {
-    text-align: center;
+    #menu a {
+        font-size: 1.5em;
+    }
 }
