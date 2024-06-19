@@ -193,3 +193,73 @@ nav {
         right: 10px;
     }
 }
+
+/* Work ethos section */
+#work-ethos {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#left-about, #right-about {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.left-about-heading,
+.right-about-heading {
+    margin-bottom: 50px;
+}
+
+.left-about-heading h2,
+.right-about-heading h2 {
+    text-align: center;
+}
+
+.left-about-heading p,
+.right-about-heading p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#center-about {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url('../images/center.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Responsive adjustments for work ethos section */
+@media screen and (max-width: 768px) {
+    #left-about, #right-about {
+        padding-top: 20px;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        margin-bottom: 30px;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #circle-container {
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+    }
+}
