@@ -23,7 +23,7 @@ TidyHome Services provides a comprehensive range of home cleaning solutions desi
 
 
 
-- **Services We Offer**:          ![imnage](./assets/images/right-image.jpg)
+- **Services We Offer**:          ![image](./assets/images/right-image.jpg)
   - One-Off Deep Cleaning
   - End of Tenancy Cleaning          
   - Upholstery Cleaning
