@@ -44,6 +44,11 @@ header #logo {
     border: none;
 }
 
+#logo .fa-house {
+    font-size: 1em; /* Adjust icon size */
+    margin-left: 5px; /* Add some space between text and icon */
+}
+
 nav {
     margin-top: 10px;
 }
@@ -202,7 +207,7 @@ nav {
     }
 }
 
-/* Work Ethos Section */
+/* Work Ethos Section, services */
 #work-ethos {
     padding: 50px 0;
     background-color: #f5f5f5;
@@ -210,27 +215,29 @@ nav {
 }
 
 #left-about, #right-about {
-    padding-top: 30px;
     box-sizing: border-box;
     display: inline-block; /* Ensures blocks are inline */
     vertical-align: top; /* Aligns blocks vertically */
     width: 50%; /* Each section takes half the width */
+    padding: 0 20px; /* Padding around content */
 }
 
 .left-about-heading,
 .right-about-heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px; /* Space between headings and paragraphs */
 }
 
 .left-about-heading h2,
 .right-about-heading h2 {
-    text-align: center;
+    font-size: 2.5em; /* Larger heading size */
+    margin-bottom: 10px; /* Smaller margin for heading */
 }
 
 .left-about-heading p,
 .right-about-heading p {
     text-align: justify;
-    padding: 0 20px;
+    line-height: 1.6; /* Improved line spacing for readability */
+    color: #555; /* Slightly darker text color for contrast */
 }
 
 #center-about {
@@ -254,17 +261,12 @@ nav {
 @media screen and (max-width: 768px) {
     #left-about, #right-about {
         width: 100%; /* Full width on smaller screens */
-        padding-top: 20px;
+        padding: 0 10px; /* Reduce padding */
     }
 
     .left-about-heading,
     .right-about-heading {
-        margin-bottom: 30px;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        padding: 0 10px;
+        margin-bottom: 20px; /* Smaller space between headings and paragraphs */
     }
 }
 
