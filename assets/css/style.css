@@ -212,6 +212,14 @@ nav {
     background-color: #f5f5f5;
     text-align: center; /* Center aligning the content */
 }
+/* Adjust spacing between headings */
+#work-ethos #welcome {
+    margin-bottom: 20px; /* Add margin-bottom to create space */
+}
+
+#left-about .left-about-heading h2 {
+    margin-top: 20px; /* Add margin-top to create space */
+}
 
 #left-about, #right-about {
     box-sizing: border-box;
