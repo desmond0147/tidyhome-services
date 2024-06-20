@@ -1,8 +1,10 @@
 # TidyHome Services
 
-A website for home cleaning services, around Dublin city and environs.
-# My Project
+## A website for home cleaning services, around Dublin city and environs.
+## My Project
+
 ![image](./assets/images/worker.jpg)
+
 ## Overview
 
 TidyHome Services provides a comprehensive range of home cleaning solutions designed to keep your home spotless and organized. Our services are available throughout Dublin city and its surrounding areas.
@@ -19,9 +21,11 @@ TidyHome Services provides a comprehensive range of home cleaning solutions desi
 - **Contact Us Page**:
   - Includes a form where users can provide their full name, email, and details about the service they want.
 
-- **Services We Offer**:
+
+
+- **Services We Offer**:          ![imnage](./assets/images/right-image.jpg)
   - One-Off Deep Cleaning
-  - End of Tenancy Cleaning
+  - End of Tenancy Cleaning          
   - Upholstery Cleaning
   - Carpet Cleaning
   - After Builders Cleaning
