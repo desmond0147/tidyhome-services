@@ -629,15 +629,17 @@ footer {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
-    color: #333;
-    transition: border-color 0.3s ease;
+    color: #333; /* Text color inside the input fields */
     background-color: #fff; /* White background for inputs */
+    transition: border-color 0.3s ease;
 }
 
 .inputBox input:focus,
 .inputBox textarea:focus {
     outline: none;
     border-color: #555;
+    background-color: #fff; /* Ensure background color remains white on focus */
+    color: #333; /* Ensure text color remains readable on focus */
 }
 
 .inputBox label {
@@ -676,6 +678,7 @@ footer {
     margin-bottom: 10px;
     color: #fff; /* Text color */
 }
+
 /* Responsive Adjustments */
 @media screen and (max-width: 1024px) {
     .container {
