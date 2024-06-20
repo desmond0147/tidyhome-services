@@ -531,9 +531,22 @@ footer {
 }
 
 /* Contact Form Styling */
-.contact {
+#city-image {
+    height: 100vh;
+    background: url('../images/dublin-city.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
     padding: 50px 0;
     text-align: center;
+}
+
+.contact {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
 }
 
 .contact .content {
@@ -549,6 +562,14 @@ footer {
 .contact p {
     font-size: 1.2em;
     color: #777;
+}
+
+.contact .highlighted-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with some transparency */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding for better readability */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Ensure it wraps nicely around the text */
 }
 
 .container {
@@ -570,13 +591,14 @@ footer {
 
 .contactInfo .box {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* Center align the items vertically */
     margin-bottom: 15px;
 }
 
 .contactInfo .icon {
     font-size: 1.5em;
-    margin-right: 10px;
+    margin-right: 10px; /* Reduced margin */
+    color: #3a3a3a;
 }
 
 .contactInfo .text {
@@ -601,6 +623,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px; /* Ensure there is space at the bottom */
 }
 
 .contactForm h2 {
@@ -623,6 +646,7 @@ footer {
     font-size: 1em;
     color: #333;
     transition: border-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .inputBox input:focus,
@@ -653,6 +677,7 @@ footer {
     font-size: 1em;
     padding: 10px 20px;
     border-radius: 4px;
+    margin-top: 20px; /* Add margin top to move it up */
 }
 
 .inputBox input[type="submit"]:hover {
@@ -668,19 +693,19 @@ footer {
 
     .contactInfo,
     .contactForm {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%;
         margin-bottom: 20px;
     }
 
     .contactInfo .box,
     .contactForm .inputBox {
-        margin-bottom: 10px; /* Reduce margin between items */
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%;
     }
 }
 
