@@ -83,8 +83,8 @@ To run this project locally:
 
 ## Credits
 
-- **Inspiration**: Love Running walkthrough project, YouTube Learn Web.
-- **Media**: Images were taken from Pexels.
+- **Inspiration**: Love Running walkthrough project, Ai, google, YouTube Learn Web.
+- **Media**: Images were taken from Pexels. 
 
 ## Contributing
 
