@@ -465,11 +465,11 @@ footer {
 
 .service-column {
     flex: 1;
-    padding: 0 10px; /* Adjusted padding for smaller screens */
+    padding: 0 15px; /* Adjusted padding for smaller screens */
 }
 
 .service-item {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -484,9 +484,9 @@ footer {
 }
 
 .service-item p {
+    font-size: 1em; /* Adjusted font size for better readability */
     line-height: 1.6;
-    color: #555; /* Adjusted text color for better visibility */
-    font-size: 0.95em;
+    color: #555;
 }
 
 .service-frequencies {
@@ -495,7 +495,7 @@ footer {
 
 .service-frequencies li {
     margin-bottom: 5px;
-    color: #777; /* Adjusted frequency text color */
+    color: #777;
     font-size: 0.9em;
 }
 
@@ -527,13 +527,14 @@ footer {
     }
 
     .service-item p {
-        font-size: 0.9em;
+        font-size: 0.95em; /* Slightly reduced font size for better readability */
     }
 
     .service-frequencies li {
-        font-size: 0.85em; /* Slightly reduced font size for frequencies on smaller screens */
+        font-size: 0.85em;
     }
 }
+
 
 /* Contact Form Styling */
 .contact {
