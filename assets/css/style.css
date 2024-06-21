@@ -299,6 +299,9 @@ nav {
 .contact-box p {
     margin: 10px 0;
 }
+.bold {
+    font-weight: bolder;
+}
 
 /* Responsive adjustments for contact info section */
 @media screen and (max-width: 768px) {
