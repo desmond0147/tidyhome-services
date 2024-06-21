@@ -258,6 +258,10 @@ nav {
     background-size: cover;
 }
 
+.section-subheading {
+    margin-top: 20px;  /* Adjusts space above the subheading */
+    margin-bottom: 10px;
+ }
 /* Responsive adjustments for work ethos section */
 @media screen and (max-width: 768px) {
     #left-about, #right-about {
@@ -299,6 +303,7 @@ nav {
 .contact-box p {
     margin: 10px 0;
 }
+
 .bold {
     font-weight: bolder;
 }
