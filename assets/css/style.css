@@ -256,7 +256,7 @@ nav {
 .left-image {
     width: 100%;
     height: 100%;
-    background: url('../images/left-image.jpg') no-repeat center center;
+    background: url('../images/left-image.webp') no-repeat center center;
     background-size: cover;
 }
 
