@@ -8,6 +8,16 @@
     border: none;
 }
 
+/* Header styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* General body styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -18,15 +28,7 @@ body {
     flex-direction: column; /* To enable the footer to stay at the bottom*/
 }
 
-/* Header styles */
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 header #logo {
     border: none !important;
@@ -41,6 +43,7 @@ header #logo {
     text-align: center;
     text-decoration: none;
     border: none;
+    display: inline;
 }
 
 #logo .fa-house {
@@ -438,6 +441,7 @@ footer {
     font-size: 1.5em;
     text-decoration: none;
 }
+
 
 /* Responsive adjustments for footer */
 @media screen and (max-width: 768px) {
