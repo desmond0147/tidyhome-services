@@ -307,6 +307,12 @@ nav {
     font-weight: bolder;
 }
 
+.inputBox {
+    margin-bottom: 20px;
+}
+label {
+    visibility: hidden;
+}
 /* Responsive adjustments for contact info section */
 @media screen and (max-width: 768px) {
     #contact-info {
