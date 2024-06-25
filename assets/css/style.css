@@ -141,7 +141,7 @@ nav {
 #worker-image {
     height: 100%;
     width: 100%;
-    background: url('../images/worker.jpg') no-repeat center center;
+    background: url('../images/worker.webp') no-repeat center center;
     background-size: cover;
     animation: worker-zoom 5s forwards;
 }
