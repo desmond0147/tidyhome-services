@@ -494,22 +494,22 @@ footer {
 .service-item h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #2a2a2a;
+    color: #2a2a2a; /* Heading color remains unchanged */
 }
 
 .service-item p {
     font-size: 1em; /* Adjusted font size for better readability */
     line-height: 1.6;
-    color: #555;
+    color: #333; /* Darkened text color for better contrast */
 }
 
 .service-frequencies {
     margin-top: 10px;
+    color: #333; /* Ensure availability text matches paragraph text */
 }
 
 .service-frequencies li {
     margin-bottom: 5px;
-    color: #777;
     font-size: 0.9em;
 }
 
@@ -548,7 +548,6 @@ footer {
         font-size: 0.85em;
     }
 }
-
 
 /* Contact Form Styling */
 .contact {
