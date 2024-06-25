@@ -686,6 +686,15 @@ footer {
     background-color: #555;
 }
 
+.highlighted {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+}
+
 .highlighted-text {
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
     padding: 5px 10px;
@@ -694,6 +703,8 @@ footer {
     margin-bottom: 10px;
     color: #fff; /* Text color */
 }
+
+
 
 /* Responsive Adjustments */
 @media screen and (max-width: 1024px) {
