@@ -31,7 +31,7 @@
   - Friendly
   - Stress-free
 
-![image](./assets/images/about Us-offer.png)
+![image](./assets/images/aboutus-image.png)
   
 
 
