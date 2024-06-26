@@ -82,27 +82,54 @@
 - **HTML**: No errors were returned when passing through the official W3C validator.
 - **CSS**: No errors were found when passing through the official Jigsaw validator.
 
+## Validation Testing
+
+- **HTML**: No errors were returned when passing through the official W3C validator.
+- **CSS**: No errors were found when passing through the official Jigsaw validator.
+
 ## Accessibility
 
 - I confirmed that the colors and fonts chosen are easy to read.
 - The image performance is also good, as confirmed by running it through Lighthouse in DevTools.
+![image](./assets/images/lighhouse-image.png)
 
-![image](./assets/images/lighthouse-image.png)
+# Getting Started
 
-## Getting Started
+This section provides instructions on how to set up and run the project locally, as well as an overview of the deployment process.
+
+## Setting Up Locally
 
 To run this project locally:
 
-1. Clone the repository: `git clone https://github.com/desmond0147/tidyhome-services.git`
-2. Navigate to the project directory: `cd tidyhome-services`
-3. Open `index.html` in your web browser to view the site.
+- **Clone the repository**: Start by cloning the repository to your local machine using the following command:git clone https://github.com/desmond0147/tidyhome-services.git
 
-[Live Demo](https://desmond0147.github.io/tidyhome-services/index.html)
+- **Navigate to the project directory**: Change into the project directory: cd tidyhome-services
+
+- **Open the project**: Open `index.html` in your web browser to view the site: open index.html
+
+## Deployment Process
+
+The project is deployed to GitHub Pages, which is a static site hosting service that takes files from a GitHub repository and serves them as a website.
+
+Here are the steps followed to deploy the project:
+
+- **Create a repository on GitHub**: A new repository named `tidyhome-services` was created on GitHub.
+
+- **Link the repository to Gitpod**: The GitHub repository was linked to a Gitpod workspace for an integrated development environment that supports running the project directly in the browser.
+
+- **Develop the project**: The project was developed within the Gitpod environment, making use of its features for writing, testing, and debugging the code.
+
+- **Commit and push changes**: Changes were committed and pushed to the GitHub repository regularly using the following commands:
+git add .
+git commit -m "Commit message describing the changes"
+git push
+
+## Deploy to GitHub Pages: The project was deployed to GitHub Pages by enabling GitHub Pages in the repository settings. The main branch was selected as the source for GitHub Pages, and the site is available at the following URL: https://desmond0147.github.io/tidyhome-services/
 
 ## Credits
 
-- **Inspiration**: Love Running walkthrough project, Ai, google, YouTube Learn Web.
-- **Media**: Images were taken from Pexels. 
+- **Inspiration**: Love Running walkthrough project, Ai, google, YouTube Learn Web, mentor call sections.
+- **Media**: Images were taken from Pexels. https://redketchup.io/image-resizer was use to resize image
 
 ## Contributing
 
