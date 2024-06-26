@@ -124,7 +124,9 @@ git add .
 git commit -m "Commit message describing the changes"
 git push
 
-## Deploy to GitHub Pages: The project was deployed to GitHub Pages by enabling GitHub Pages in the repository settings. The main branch was selected as the source for GitHub Pages, and the site is available at the following URL: https://desmond0147.github.io/tidyhome-services/
+## Deploy to GitHub Pages
+
+The project was deployed to GitHub Pages by enabling GitHub Pages in the repository settings. The main branch was selected as the source for GitHub Pages, and the site is available at the following URL: [tidyhome-services GitHub Pages](https://desmond0147.github.io/tidyhome-services/).
 
 ## Credits
 
@@ -141,7 +143,7 @@ This project is licensed under the MIT License.
 
 - Fixed an issue where the footer was floating after submitting the form. Resolved by setting the default styles to:
 
-```css
+css
 * {
     margin: 0;
     padding: 0;
