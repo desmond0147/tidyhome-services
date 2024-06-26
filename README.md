@@ -4,15 +4,16 @@
 
 ![image](./assets/images/worker.webp)
 
-## Overview
-
-TidyHome Services provides a comprehensive range of home cleaning solutions designed to keep your home spotless and organized. Our services are available throughout Dublin city and its surrounding areas.
 
 ## Features
 
 - **Navigation Bar**: 
   - The top of the page features a navigation bar with the home cleaning name, Tidy Home Cleaning, on the left, which links to the top of the page.
   - The right side of the navigation bar includes links to different sections of the page: About Us, Services, and Contact Us.
+  - The navigation link has a hover border line of light gray color ('#ccc') for user indication.
+  - The header has a white background and the text color is a shade of dark gray for better contrast.
+
+
   
 - **About Us Page**: 
   - This page explains why we are the best home cleaners.
