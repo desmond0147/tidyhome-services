@@ -12,6 +12,12 @@
   - The right side of the navigation bar includes links to different sections of the page: About Us, Services, and Contact Us.
   - The navigation link has a hover border line of light gray color ('#ccc') for user indication.
   - The header has a white background and the text color is a shade of dark gray for better contrast.
+  - The image explains that the site is for cleaning services.
+  - This section provides the user with clear information about what the site is about.
+  ![image](./assets/images/nav-bar.png)
+  ![image](./assets/images/services-image.webp)
+
+  
 
 
   
