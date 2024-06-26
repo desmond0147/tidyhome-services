@@ -126,7 +126,8 @@ git push
 
 ## Deploy to GitHub Pages
 
-The project was deployed to GitHub Pages by enabling GitHub Pages in the repository settings. The main branch was selected as the source for GitHub Pages, and the site is available at the following URL: [tidyhome-services GitHub Pages](https://desmond0147.github.io/tidyhome-services/).
+- From the source drop-down menu. select the Master Branch
+- Once the master branch has been selected, the page provided the link to completed website. [tidyhome-services GitHub Pages](https://desmond0147.github.io/tidyhome-services/).
 
 ## Credits
 
