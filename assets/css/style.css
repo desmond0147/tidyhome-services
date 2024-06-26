@@ -213,7 +213,13 @@ nav {
 #work-ethos {
     padding: 50px 0;
     background-color: #f5f5f5;
-    text-align: center;
+    text-align: left;
+}
+
+#work-ethos p {
+    text-align: left; /* Ensure paragraphs are left-aligned */
+    line-height: 1.6;
+    color: #555;
 }
 
 #left-about, #right-about {
@@ -239,7 +245,7 @@ nav {
 
 .left-about-heading p,
 .right-about-heading p {
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
     color: #666;
 }
@@ -259,7 +265,7 @@ nav {
     background: url('../images/left-image.webp') no-repeat center center;
     background-size: cover;
 }
-
+/* paragraphs heading */
 .section-subheading {
     margin-top: 20px;  /* Adjusts space above the subheading */
     margin-bottom: 10px;
