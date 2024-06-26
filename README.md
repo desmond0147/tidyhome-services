@@ -17,13 +17,13 @@
   ![image](./assets/images/nav-bar.png)
   ![image](./assets/images/services-image.webp)
 
-  <div align="center">
+ 
 
 ### About Us Page
 
 #### Why Choose Us for Your Home Cleaning Needs
 
-</div>
+
 
 - The About Us section gives details about what Tidy Home Cleaners offer their members and includes headers and paragraphs outlining their services:
   - Satisfaction
@@ -35,18 +35,22 @@
   
 
 
-- **Contact Us Page**:
-  - Includes a form where users can provide their full name, email, and details about the service they want.
 
- - **Services We Offer**:          
-  - One-Off Deep Cleaning
-  - End of Tenancy Cleaning          
-  - Upholstery Cleaning
-  - Carpet Cleaning
-  - After Builders Cleaning
-  - Bathroom Steam Cleaning
-  - Regular House Cleaning Services
-  - Power Washing Driveways
+
+ ### Services Section
+
+- **Services section show the types of services they offer and includes headers and paragraphs explaining their services, outlining their services:**
+  - **Satisfaction Guaranteed**
+    - One-Off Deep Cleaning
+    - End of Tenancy Cleaning
+    - Upholstery Cleaning
+    - Carpet Cleaning
+    - After Builders Cleaning
+    - Bathroom Steam Cleaning
+    - Regular House Cleaning Services
+    - Power Washing Driveways
+
+    ![image](./assets/images/ourservices-image.png)
 
 ## Contact Information
 
