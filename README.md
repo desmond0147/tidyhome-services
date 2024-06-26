@@ -1,9 +1,8 @@
 # TidyHome Services
 
-## A website for home cleaning services, around Dublin city and environs.
-## My Project
+## The Tidy Home Cleaners website serves as a landing page for individuals and offices in Dublin City and its surrounding areas, offering professional cleaning services.
 
-![image](./assets/images/worker.jpg)
+![image](./assets/images/worker.webp)
 
 ## Overview
 
