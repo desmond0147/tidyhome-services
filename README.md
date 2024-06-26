@@ -54,15 +54,13 @@
 
 ## Contact Information
 
-For more information or to schedule a service, please contact us:
+- This section contains a form where the user can send a message. The form includes fields for the user's full name, email, and a text box where the user can describe the services they want.
+- When the form is submitted, it will open in a new tab. The form's reply response is directed to Code Institute; this is just for project purposes as the company does not actually exist.
+- The background image is a city center image showing offices, which are the company's target for cleaning services, and the water symbolizes cleanliness.
 
-- **Phone:** +353-899-720-953
-- **Email:** omonuwaosai@gmail.com
-- **Address:** Tidy Home, 3 Meeting House Lane, Dublin, Ireland
+![image](./assets/images/contactus-image.png)
 
-## Usage
 
-Visit our website to learn more about our services, schedule a cleaning, or get in touch with our team.
 
 ## Technologies Used
 
