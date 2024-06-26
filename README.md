@@ -77,15 +77,6 @@
 - **Form Functionality**: Verified that the form requires entries in every field, accepts only a valid email in the email field, and the submit button works.
 
 
-- Fixed an issue where the footer was floating after submitting the form. Resolved by setting the default styles to:
-
-```css
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
-
 ## Validation Testing
 
 - **HTML**: No errors were returned when passing through the official W3C validator.
@@ -120,3 +111,12 @@ We welcome contributions to improve our services and website. Please fork the re
 ## License
 
 This project is licensed under the MIT License.
+
+- Fixed an issue where the footer was floating after submitting the form. Resolved by setting the default styles to:
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
