@@ -76,19 +76,27 @@
 - **Readability**: Ensured that the navigation, header, About Us, Services, and Contact text are all readable and easy to understand.
 - **Form Functionality**: Verified that the form requires entries in every field, accepts only a valid email in the email field, and the submit button works.
 
-## Solved Bugs
 
-- **Contact Us Form**: Fixed an issue where the footer was floating after submitting the form. Resolved by setting the/* Reset default styles (wildcard) */
+- Fixed an issue where the footer was floating after submitting the form. Resolved by setting the default styles to:
+
+```css
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add box-sizing reset */
-}  .
+    box-sizing: border-box; 
+}
 
 ## Validation Testing
 
 - **HTML**: No errors were returned when passing through the official W3C validator.
-- **CSS**: No errors were found when passing through the official (Jigsaw) validator.
+- **CSS**: No errors were found when passing through the official Jigsaw validator.
+
+## Accessibility
+
+- I confirmed that the colors and fonts chosen are easy to read.
+- The image performance is also good, as confirmed by running it through Lighthouse in DevTools.
+
+![image](./assets/images/lighthouse-image.png)
 
 ## Getting Started
 
